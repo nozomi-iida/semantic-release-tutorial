@@ -1,17 +1,17 @@
 {
   "name": "semantic-release-tutorial",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "semantic-release": "semantic-release"
   },
   "bin": {
     "sayHello": "bin/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nozomi-iida/semantic-release-tutorial.git"
+    "url": "https://github.com/nozomi-iida/semantic-release-tutorial.git"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nozomi-iida/semantic-release-tutorial/issues"
   },
-  "homepage": "https://github.com/nozomi-iida/semantic-release-tutorial#readme"
+  "homepage": "https://github.com/nozomi-iida/semantic-release-tutorial#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
 }
